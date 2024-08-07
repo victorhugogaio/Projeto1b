@@ -4,3 +4,55 @@
     box-sizing: border-box ;
 }
 
+.conteiner {
+
+    display: flex;
+
+    width: 80%;
+    height: 700px;
+    margin: 0 auto;
+    border: 10px solid black;
+
+    flex-direction: row; /*Define a direção dos itens no contêiner. > DIREÇÃO FLEXIVEL
+    Valores: row (padrão), row-reverse, column, column-reverse.*/
+
+    justify-content:flex-end;/*Alinha os itens ao longo do eixo principal. > horizontal > justificar conteudo
+    Valores: flex-start (padrão), flex-end, center, space-between, space-around, space-evenly.*/
+
+    align-items: flex-start; /*Alinha os itens ao longo do eixo cruzado. > vertical
+    Valores: stretch (padrão), flex-start, flex-end, center, baseline.*/
+    
+    flex-wrap: nowrap; /*Controla se os itens devem quebrar em várias linhas.
+    Valores: nowrap (padrão), wrap, wrap-reverse.*/
+/*
+
+flex-wrap (quebrar linhas)
+
+align-content (ajustar a forma que essas linhas quebradas será visualizado no conteúdo)
+*/
+    align-content: space-around; /*Alinha as linhas de um contêiner flex com várias linhas (quando flex-wrap é usado) ao longo do eixo cruzado.
+    Valores: flex-start, flex-end, center, space-between, space-around, stretch.*/
+
+    order: 0; /*Define a ordem dos itens. O padrão é 0.
+    */
+    
+    flex-grow: 0; /*Define a capacidade de um item de crescer em relação aos outros. O padrão é 0 (não cresce).
+    */
+
+}
+
+.conteiner div {
+    border: 5px solid rgb(236, 166, 73);;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    text-align: center;  
+    margin-left: 10px;
+    
+}
+
+.item {
+    background-color: rgb(255, 215, 162);
+    
+}
+
