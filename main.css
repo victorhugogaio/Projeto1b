@@ -19,7 +19,7 @@
     justify-content:flex-end;/*Alinha os itens ao longo do eixo principal. > horizontal > justificar conteudo
     Valores: flex-start (padrão), flex-end, center, space-between, space-around, space-evenly.*/
 
-    align-items: flex-start; /*Alinha os itens ao longo do eixo cruzado. > vertical
+    align-items: baseline; /*Alinha os itens ao longo do eixo cruzado. > vertical
     Valores: stretch (padrão), flex-start, flex-end, center, baseline.*/
     
     flex-wrap: nowrap; /*Controla se os itens devem quebrar em várias linhas.
@@ -39,6 +39,8 @@ align-content (ajustar a forma que essas linhas quebradas será visualizado no c
     flex-grow: 0; /*Define a capacidade de um item de crescer em relação aos outros. O padrão é 0 (não cresce).
     */
 
+    gap: 10px 20px;
+
 }
 
 .conteiner div {
@@ -47,12 +49,13 @@ align-content (ajustar a forma que essas linhas quebradas será visualizado no c
     width: 100px;
     height: 50px;
     text-align: center;  
-    margin-left: 10px;
+    
     
 }
 
 .item {
     background-color: rgb(255, 215, 162);
+    margin-top: 10px;
     
 }
 
