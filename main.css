@@ -13,13 +13,13 @@
     margin: 0 auto;
     border: 10px solid black;
 
-    flex-direction: row; /*Define a direção dos itens no contêiner. > DIREÇÃO FLEXIVEL
+    flex-direction: column; /*Define a direção dos itens no contêiner. > DIREÇÃO FLEXIVEL
     Valores: row (padrão), row-reverse, column, column-reverse.*/
 
-    justify-content:flex-end;/*Alinha os itens ao longo do eixo principal. > horizontal > justificar conteudo
+    justify-content:flex-start;/*Alinha os itens ao longo do eixo principal. > horizontal > justificar conteudo
     Valores: flex-start (padrão), flex-end, center, space-between, space-around, space-evenly.*/
 
-    align-items: baseline; /*Alinha os itens ao longo do eixo cruzado. > vertical
+/*    align-items: baseline; /*Alinha os itens ao longo do eixo cruzado. > vertical
     Valores: stretch (padrão), flex-start, flex-end, center, baseline.*/
     
     flex-wrap: nowrap; /*Controla se os itens devem quebrar em várias linhas.
@@ -30,17 +30,17 @@ flex-wrap (quebrar linhas)
 
 align-content (ajustar a forma que essas linhas quebradas será visualizado no conteúdo)
 */
-    align-content: space-around; /*Alinha as linhas de um contêiner flex com várias linhas (quando flex-wrap é usado) ao longo do eixo cruzado.
+/*    align-content: space-around; /*Alinha as linhas de um contêiner flex com várias linhas (quando flex-wrap é usado) ao longo do eixo cruzado.
     Valores: flex-start, flex-end, center, space-between, space-around, stretch.*/
 
-    order: 0; /*Define a ordem dos itens. O padrão é 0.
+/*    order: 0; /*Define a ordem dos itens. O padrão é 0.
     */
     
-    flex-grow: 0; /*Define a capacidade de um item de crescer em relação aos outros. O padrão é 0 (não cresce).
+/*    flex-grow: 0; /*Define a capacidade de um item de crescer em relação aos outros. O padrão é 0 (não cresce).
     */
-
+/*
     gap: 10px 20px;
-
+*/
 }
 
 .conteiner div {
